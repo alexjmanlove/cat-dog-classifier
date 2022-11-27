@@ -2,7 +2,7 @@
 
 ## PyTorch Convolutional Neural Network for Binary Classification.
 
-Images of 8,000 cats and dogs, taken from [this Kaggle dataset](https://www.kaggle.com/datasets/chetankv/dogs-cats-images), were used to train a convolutional neural network for the task of binary image classification. In the end this simple network achieved 80% accuracy on the test set containing a further 2,000 images.     
+Images of 8,000 cats and dogs, taken from [this Kaggle dataset](https://www.kaggle.com/datasets/chetankv/dogs-cats-images), were used to train a convolutional neural network for the task of binary image classification. In the end this simple network achieved 80% accuracy on the test set of 2,000 images.     
 
 <img src="https://user-images.githubusercontent.com/79708390/204142349-8b6580a6-b453-4927-9675-98933d0c513a.jpg" height=224 width=224></img>
 <img src="https://user-images.githubusercontent.com/79708390/204142529-be744e6e-bef0-4b06-8f0a-eee538efaced.jpg" height=224 width=224></img>
