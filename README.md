@@ -14,8 +14,15 @@ Images of 8,000 cats and dogs, taken from [this Kaggle dataset](https://www.kagg
 
 ## Architecture
 
+* To ensure consistent model input, these RGB images are first transformed in preprocessing to dimensions 3×256×256. 
+* The feature extraction consists of 5 convolutional layers and 4 pooling layers all using ReLU() activation. 
+* Batch normalisation was applied after every convolution operation to assist the training of the model. 
+* The output of the final pooling layer is flattened and fed into the classifier, comprised of 4 fully connected layers using tanh() activation. 
+
+Implementation details are available in the .ipynb file.
+
+
 ![cnn](https://user-images.githubusercontent.com/79708390/204142288-ce99f74e-c225-4b25-b186-99c4793fa4b6.png)    
 
 CNN Architecture Diagram generated using: http://alexlenail.me/NN-SVG/AlexNet.html    
     
-To ensure consistent model input, these RGB images were transformed in preprocessing to dimensions 3×256×256. The feature extraction consists of 5 convolutional layers and 4 pooling layers all using ReLU() activation. Batch normalisation was applied after every convolution operation to assist the training of the model. The output of the final pooling layer is flattened and fed into the classifier, comprised of 4 fully connected layers using tanh() activation. Implementation details are available in the .ipynb file.
