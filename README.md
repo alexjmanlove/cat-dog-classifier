@@ -27,7 +27,7 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 
 
 
-## Brief Notes on the Theory Behind Convolutional Neural Networks
+## Brief Notes on the Motivation for Convolutional Neural Networks
 
 Imagine a supervised learning problem where you have one input feature per pixel in an image. For a megapixel image your input space would be on the order of millions. This is computationally intractable for a standard neural network to learn. CNNs are handy because they reduce this high dimensional input by performing convolutions. 
 Using a sliding kernel, they reduce the input space.    
