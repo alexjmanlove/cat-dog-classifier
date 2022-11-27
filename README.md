@@ -25,3 +25,16 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 * Batch normalisation was applied after every convolution operation to assist the training of the model. 
 * The output of the final pooling layer is flattened and fed into the classifier, comprised of 4 fully connected layers using tanh() activation. 
 
+
+
+## Brief Notes on the Theory Behind Convolutional Neural Networks
+
+Imagine a supervised learning problem where you have one input feature per pixel in an image. For a megapixel image your input space would be on the order of millions. This is computationally intractable for a standard neural network to learn. CNNs are handy because they reduce this high dimensional input by performing convolutions. 
+Using a sliding kernel, they reduce the input space.    
+
+Pixels in an image are highly correlated according to their proximity to one another. By sliding this convolutional filter across the image, we hope that the resulting convolved outputs can successfully capture some of that spatial dependence. We can use a pooling layer which helps us to more clearly ascertain the features which correspond to these spatial structures found in the image. This process of convolving the input image to identify key spatials tructures is called feature extraction.
+In other words by performing this convolutional operation, we are creating a feature map. We pass these extracted features along to a classification network.    
+
+This also allows us to be more resilient to slight modifications or perturbations in the image. If we had a simple one pixel translation, a standard neural network would be highly sensitive to these small changes, because at a purely numerical level all of the inputs have suddenly changed. By contrast, using this convolutional approach, since we are capturing the broader spatial structures within regions of the image the neural network is more robust to these small perturbations.    
+
+Each filter will have a specific shape or pattern that it is trying to detect. A key step is the pass the convolution outputs to a pooling layer. This is necessary to further reduce the dimensionality of the data. For example a 2x2 MaxPooling filter will consider a 2x2 subset of an input, take the maximum value of that 2x2 subset, and associate that to a single 1x1 subset of the output. The particular number of convolutional filters and the scalar values in those filters is optimised during the backpropagation.     
