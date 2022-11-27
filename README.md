@@ -32,6 +32,9 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 Imagine a supervised learning problem where you have one input feature per pixel in an image. For a megapixel image your input space would be on the order of millions. This is computationally intractable for a standard neural network to learn. CNNs are handy because they reduce this high dimensional input by performing convolutions. 
 Using a sliding kernel, they reduce the input space.    
 
+![image](https://user-images.githubusercontent.com/79708390/204163695-3ee8b607-ec98-47d4-8b01-971e13c1bdcf.png)
+(Img Source: https://d2l.ai/chapter_convolutional-neural-networks/conv-layer.html)
+
 Pixels in an image are highly correlated according to their proximity to one another. By sliding this convolutional filter across the image, we hope that the resulting convolved outputs can successfully capture some of that spatial dependence. We can use a pooling layer which helps us to more clearly ascertain the features which correspond to these spatial structures found in the image. This process of convolving the input image to identify key spatials tructures is called feature extraction.
 In other words by performing this convolutional operation, we are creating a feature map. We pass these extracted features along to a classification network.    
 
