@@ -19,7 +19,7 @@ Implementation details are available in the .ipynb file.
 
 ![cnn](https://user-images.githubusercontent.com/79708390/204142288-ce99f74e-c225-4b25-b186-99c4793fa4b6.png)    
 
-CNN Architecture Diagram generated using: http://alexlenail.me/NN-SVG/AlexNet.html    
+_CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.html    
     
 * To ensure consistent model input, these RGB images are first transformed in preprocessing to dimensions 3×256×256. 
 * The feature extraction consists of 5 convolutional layers and 4 pooling layers all using ReLU() activation. 
