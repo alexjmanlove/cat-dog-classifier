@@ -38,3 +38,6 @@ In other words by performing this convolutional operation, we are creating a fea
 This also allows us to be more resilient to slight modifications or perturbations in the image. If we had a simple one pixel translation, a standard neural network would be highly sensitive to these small changes, because at a purely numerical level all of the inputs have suddenly changed. By contrast, using this convolutional approach, since we are capturing the broader spatial structures within regions of the image the neural network is more robust to these small perturbations.    
 
 Each filter will have a specific shape or pattern that it is trying to detect. A key step is the pass the convolution outputs to a pooling layer. This is necessary to further reduce the dimensionality of the data. For example a 2x2 MaxPooling filter will consider a 2x2 subset of an input, take the maximum value of that 2x2 subset, and associate that to a single 1x1 subset of the output. The particular number of convolutional filters and the scalar values in those filters is optimised during the backpropagation.     
+
+![image](https://user-images.githubusercontent.com/79708390/204163584-5761c953-19be-4d05-b5b1-1ee5efbe5d95.png)
+(Img Source: https://towardsdatascience.com/convolution-neural-networks-a-beginners-guide-implementing-a-mnist-hand-written-digit-8aa60330d022)
