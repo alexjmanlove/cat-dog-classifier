@@ -27,14 +27,15 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 * The output of the final pooling layer is flattened and fed into the classifier, comprised of 6 fully connected layers using tanh() activation. 
 
     
-## Training Loss
-
-The model is set to train with batch size of 40, using the optimiser Adam with learning rate = 0.00001, for 10 Epochs.    
+## Training
 
 ![training loss](https://user-images.githubusercontent.com/79708390/204173340-509b2985-8fd3-4bf8-8bda-b98a6bc1e7e4.png)    
 
-The model loss gradually decreases until reaching a plateau. Perhaps training further for longer epochs will allow the model to improve its performance on the test data. 
+The model is set to train with: 
+* batch size of 40 for 10 epochs,
+* using the optimiser Adam with learning rate = 0.00001 optimising for binary cross entropy loss.
 
+The model loss gradually decreases until reaching a plateau. Perhaps training further for longer epochs will allow the model to improve its performance on the test data. 
     
 ## Evaluation
 
@@ -52,7 +53,7 @@ Using a sliding kernel, they reduce the input space.
 Pixels in an image are highly correlated according to their proximity to one another. By sliding this convolutional filter across the image, we hope that the resulting convolved outputs can successfully capture some of that spatial dependence. We can use a pooling layer which helps us to more clearly ascertain the features which correspond to these spatial structures found in the image. This process of convolving the input image to identify key spatials tructures is called feature extraction.
 In other words by performing this convolutional operation, we are creating a feature map. We pass these extracted features along to a classification network.    
 
-This also allows us to be more resilient to slight modifications or perturbations in the image. If we had a simple one pixel translation, a standard neural network would be highly sensitive to these small changes, because at a purely numerical level all of the inputs have suddenly changed. By contrast, using this convolutional approach, since we are capturing the broader spatial structures within regions of the image the neural network is more robust to these small perturbations.    
+This also allows the classifier to be more resilient to slight modifications or perturbations in the image. If we had a simple one pixel translation, a standard neural network would be highly sensitive to these small changes, because at a purely numerical level all of the inputs have suddenly changed. By contrast, using this convolutional approach, since we are capturing the broader spatial structures within regions of the image the neural network is more robust to these small perturbations.    
 
 Each filter will have a specific shape or pattern that it is trying to detect. A key step is the pass the convolution outputs to a pooling layer. This is necessary to further reduce the dimensionality of the data. For example a 2x2 MaxPooling filter will consider a 2x2 subset of an input, take the maximum value of that 2x2 subset, and associate that to a single 1x1 subset of the output. The particular number of convolutional filters and the scalar values in those filters is optimised during the backpropagation.     
 
