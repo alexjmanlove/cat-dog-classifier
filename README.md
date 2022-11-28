@@ -27,7 +27,7 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 * The output of the final pooling layer is flattened and fed into the classifier, comprised of 6 fully connected layers using tanh() activation. 
 
     
-## Training 
+## Training Loss
 
 The model is set to train with batch size of 40, using the optimiser Adam with learning rate = 0.00001, for 10 Epochs.    
 
