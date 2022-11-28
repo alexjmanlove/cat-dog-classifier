@@ -25,7 +25,7 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 * Batch normalisation was applied after every convolution operation to assist the training of the model. 
 * The output of the final pooling layer is flattened and fed into the classifier, comprised of 6 fully connected layers using tanh() activation. 
 
-
+    
 ## Training 
 
 The model is set to train with batch size of 40, using the optimiser Adam with learning rate = 0.00001, for 10 Epochs.    
@@ -34,12 +34,12 @@ The model is set to train with batch size of 40, using the optimiser Adam with l
 
 The model loss gradually decreases until reaching a plateau. Perhaps training further for longer epochs will allow the model to improve its performance on the test data. 
 
+    
 ## Evaluation
 
 ![cnn accuracy](https://user-images.githubusercontent.com/79708390/204173346-6b81d29b-9cee-4943-92b9-27ec15731940.png)
 
-
-
+    
 ## Brief Notes on the Motivation for Convolutional Neural Networks
 
 Imagine a supervised learning problem where you have one input feature per pixel in an image. For a megapixel image your input space would be on the order of millions. This is computationally intractable for a standard neural network to learn. CNNs are handy because they reduce this high dimensional input by performing convolutions. 
