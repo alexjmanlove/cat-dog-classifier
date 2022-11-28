@@ -2,7 +2,7 @@
 
 ## PyTorch Convolutional Neural Network for Binary Classification.
 
-Images of 8,000 cats and dogs, taken from [this Kaggle dataset](https://www.kaggle.com/datasets/chetankv/dogs-cats-images), were used to train a convolutional neural network for the task of binary image classification. In the end this simple network achieved 80% accuracy on the test set of 2,000 images.     
+Images of 8,000 cats and dogs, taken from [this Kaggle dataset](https://www.kaggle.com/datasets/chetankv/dogs-cats-images), were used to train a convolutional neural network for the task of binary image classification. In the end this simple network achieved 77% accuracy on the test set of 2,000 images.     
 
 <img src="https://user-images.githubusercontent.com/79708390/204142349-8b6580a6-b453-4927-9675-98933d0c513a.jpg" height=224 width=224></img>
 <img src="https://user-images.githubusercontent.com/79708390/204142529-be744e6e-bef0-4b06-8f0a-eee538efaced.jpg" height=224 width=224></img>
@@ -23,8 +23,12 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 * To ensure consistent model input, these RGB images are first transformed in preprocessing to dimensions 3×256×256. 
 * The feature extraction consists of 5 convolutional layers and 4 pooling layers all using ReLU() activation. 
 * Batch normalisation was applied after every convolution operation to assist the training of the model. 
-* The output of the final pooling layer is flattened and fed into the classifier, comprised of 4 fully connected layers using tanh() activation. 
+* The output of the final pooling layer is flattened and fed into the classifier, comprised of 6 fully connected layers using tanh() activation. 
 
+
+## Evaluation
+
+Model evaluation.
 
 
 ## Brief Notes on the Motivation for Convolutional Neural Networks
