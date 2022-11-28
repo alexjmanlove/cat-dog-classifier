@@ -1,4 +1,4 @@
-# Is that a 🐈 or a 🐕?
+# Is that a 🐈 or a 🐕? 👀
 
 ## PyTorch Convolutional Neural Network for Binary Classification.
 
