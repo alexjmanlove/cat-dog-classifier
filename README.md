@@ -24,15 +24,15 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 * To ensure consistent model input, the RGB images are first transformed to dimensions 3×256×256. 
 * The feature extraction consists of 5 convolutional layers and 4 pooling layers all using ReLU() activation. 
 * Batch normalisation was applied after every convolution operation to assist the training of the model. 
-* The output of the final pooling layer is flattened and fed into the classifier, comprised of 6 fully connected layers using tanh() activation. 
+* The output of the final pooling layer is flattened and fed into the classifier, comprised of 6 fully connected layers using leaking ReLU() activation. 
 
     
 ## Training
 
-![training loss](https://user-images.githubusercontent.com/79708390/204173340-509b2985-8fd3-4bf8-8bda-b98a6bc1e7e4.png)    
+![training loss](https://user-images.githubusercontent.com/79708390/204847383-172f79da-52bb-4555-9b7b-54dc7a69e988.png)    
 
 The model is set to train with: 
-* batch size of 40 for 10 epochs,
+* batch size of 40 for 16 epochs,
 * using the optimiser Adam with learning rate = 0.00001 optimising for binary cross entropy loss.
 
 The model loss gradually decreases until reaching a plateau. Perhaps training further for longer epochs will allow the model to improve its performance on the test data. 
