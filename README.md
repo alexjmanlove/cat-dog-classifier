@@ -39,7 +39,7 @@ The model loss gradually decreases until reaching a plateau. Perhaps training fu
     
 ## Evaluation
 
-![cnn accuracy](https://user-images.githubusercontent.com/79708390/204173346-6b81d29b-9cee-4943-92b9-27ec15731940.png)
+![cnn accuracy](https://user-images.githubusercontent.com/79708390/204847736-3815130c-9a2a-46e3-a93f-cfbda8f601d4.png)    
 
     
 ## Brief Notes on the Motivation for Convolutional Neural Networks
