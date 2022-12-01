@@ -29,18 +29,19 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
     
 ## Training
 
-![training loss](https://user-images.githubusercontent.com/79708390/204847383-172f79da-52bb-4555-9b7b-54dc7a69e988.png)    
+![training loss](https://user-images.githubusercontent.com/79708390/205051940-86e74e93-0ca2-45cc-b541-ba298ea0bb68.png)
 
 The model is set to train with: 
-* batch size of 40 for 16 epochs,
+* batch size of 40 for 10 epochs,
 * using the optimiser Adam with learning rate = 0.00001 optimising for binary cross entropy loss.
 
-The model loss gradually decreases until reaching a plateau. Perhaps training further for longer epochs will allow the model to improve its performance on the test data. 
+The model loss gradually decreases until reaching a plateau. 
     
 ## Evaluation
 
-![cnn accuracy](https://user-images.githubusercontent.com/79708390/204847736-3815130c-9a2a-46e3-a93f-cfbda8f601d4.png)    
+![cnn accuracy](https://user-images.githubusercontent.com/79708390/205052076-b462877d-a42a-426d-a019-7eb686cf18ad.png)      
 
+The test accuracy does not improve after the first five epochs. This potentially suggests the model is overfitting to the training data. 
     
 ## Brief Notes on the Motivation for Convolutional Neural Networks
 
