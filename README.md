@@ -19,7 +19,7 @@ Convolutional Neural Networks are useful because they allow us to exploit the sp
 ![cnn](https://user-images.githubusercontent.com/79708390/204142288-ce99f74e-c225-4b25-b186-99c4793fa4b6.png)    
 
 _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.html    
-(NB: diagram out of date as of 28/11/21)
+(NB: diagram out of date as of 28/11/22)
 
 * To ensure consistent model input, the RGB images are first transformed to dimensions 3×256×256. 
 * The feature extraction consists of 5 convolutional layers and 4 pooling layers all using ReLU() activation. 
