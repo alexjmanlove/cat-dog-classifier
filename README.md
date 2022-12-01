@@ -59,8 +59,8 @@ The test accuracy fails to improve after the Epoch 6, even though training loss 
 
 ### Model struggles.     
 
-<img src="https://user-images.githubusercontent.com/79708390/205160115-b85bdfd1-24a3-4e1b-9c86-33f3b84abb11.png" height=512 width=512></img>
-<img src="https://user-images.githubusercontent.com/79708390/205160092-77a1372a-f268-42c6-8db6-5bf2188486bc.png" height=512 width=512></img>     
+<img src="https://user-images.githubusercontent.com/79708390/205160115-b85bdfd1-24a3-4e1b-9c86-33f3b84abb11.png" height=400 width=400></img>
+<img src="https://user-images.githubusercontent.com/79708390/205160092-77a1372a-f268-42c6-8db6-5bf2188486bc.png" height=400 width=400></img>     
 
 
 ## Brief Notes on the Motivation for Convolutional Neural Networks
