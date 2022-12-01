@@ -44,19 +44,23 @@ The model loss gradually decreases until reaching a plateau.
 The test accuracy fails to improve after the Epoch 6, even though training loss continues to fall. This potentially suggests the model is overfitting to the training data, failing to generalise on unseen test cases. 
     
     
-## Peeking at Test Cases
+## Peeking at 10 Random Test Cases
+
+### Model predicts accurately.    
 
 ![output](https://user-images.githubusercontent.com/79708390/205160111-ff195a19-cdf8-40fd-b52f-f97705256b79.png)
-![output_1](https://user-images.githubusercontent.com/79708390/205160115-b85bdfd1-24a3-4e1b-9c86-33f3b84abb11.png)
 ![output_2](https://user-images.githubusercontent.com/79708390/205160117-038ef66f-0f9f-43a0-8723-525838593ca7.png)
 ![output_3](https://user-images.githubusercontent.com/79708390/205160086-890642ce-d8f6-464b-8c50-4146412b5778.png)
 ![output_4](https://user-images.githubusercontent.com/79708390/205160089-a6840e9c-855c-4448-ae94-6d79b04c1f04.png)
-![output_5](https://user-images.githubusercontent.com/79708390/205160092-77a1372a-f268-42c6-8db6-5bf2188486bc.png)
 ![output_6](https://user-images.githubusercontent.com/79708390/205160095-82f551e2-3dab-4cdd-90e4-4a445d5ba3e6.png)
 ![output_7](https://user-images.githubusercontent.com/79708390/205160100-d177ca35-4de0-4dc2-843e-d0901a0d2450.png)
 ![output_8](https://user-images.githubusercontent.com/79708390/205160103-1d48ba0e-04ed-4e92-a14a-7fb456857d1e.png)
 ![output_9](https://user-images.githubusercontent.com/79708390/205160105-9d0c5273-762f-44e3-9ebe-e696e2aed76a.png)    
 
+### Model struggles.     
+
+![output_1](https://user-images.githubusercontent.com/79708390/205160115-b85bdfd1-24a3-4e1b-9c86-33f3b84abb11.png)
+![output_5](https://user-images.githubusercontent.com/79708390/205160092-77a1372a-f268-42c6-8db6-5bf2188486bc.png)
 
 ## Brief Notes on the Motivation for Convolutional Neural Networks
 
