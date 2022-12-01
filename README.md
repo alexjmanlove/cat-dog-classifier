@@ -41,7 +41,7 @@ The model loss gradually decreases until reaching a plateau.
 
 ![cnn accuracy](https://user-images.githubusercontent.com/79708390/205052076-b462877d-a42a-426d-a019-7eb686cf18ad.png)      
 
-The test accuracy does not improve after the first five epochs. This potentially suggests the model is overfitting to the training data. 
+The test accuracy fails to improve after the Epoch 6. This potentially suggests the model is overfitting to the training data. 
     
 ## Brief Notes on the Motivation for Convolutional Neural Networks
 
