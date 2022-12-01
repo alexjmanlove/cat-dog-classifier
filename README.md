@@ -27,7 +27,7 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 * The output of the final pooling layer is flattened and fed into the classifier, comprised of 6 fully connected layers using leaking ReLU() activation. 
 
     
-## Training
+## Model Training
 
 ![training loss](https://user-images.githubusercontent.com/79708390/205051940-86e74e93-0ca2-45cc-b541-ba298ea0bb68.png)
 
@@ -37,7 +37,7 @@ The model is set to train with:
 
 The model loss gradually decreases until reaching a plateau. 
     
-## Evaluation
+## Model Evaluation
 
 ![cnn accuracy](https://user-images.githubusercontent.com/79708390/205052076-b462877d-a42a-426d-a019-7eb686cf18ad.png)      
 
