@@ -1,6 +1,6 @@
 # Is that a 🐈 or a 🐕? 👀
 
-## PyTorch Convolutional Neural Network for Binary Classification.
+## Simple PyTorch Convolutional Neural Network for Binary Classification.
 
 Images of 8,000 cats and dogs, taken from [this Kaggle dataset](https://www.kaggle.com/datasets/chetankv/dogs-cats-images), were used to train a convolutional neural network for the task of binary image classification. In the end this simple network achieved 77% accuracy on the test set of 2,000 images.     
 
