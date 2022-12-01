@@ -48,19 +48,19 @@ The test accuracy fails to improve after the Epoch 6, even though training loss 
 
 ### Model predicts accurately.    
 
-<img src="https://user-images.githubusercontent.com/79708390/205160111-ff195a19-cdf8-40fd-b52f-f97705256b79.png" height=256 width=256></img>
-<img src="https://user-images.githubusercontent.com/79708390/205160117-038ef66f-0f9f-43a0-8723-525838593ca7.png" height=256 width=256></img>
-<img src="https://user-images.githubusercontent.com/79708390/205160086-890642ce-d8f6-464b-8c50-4146412b5778.png" height=256 width=256></img>
-<img src="https://user-images.githubusercontent.com/79708390/205160089-a6840e9c-855c-4448-ae94-6d79b04c1f04.png" height=256 width=256></img>
-<img src="https://user-images.githubusercontent.com/79708390/205160095-82f551e2-3dab-4cdd-90e4-4a445d5ba3e6.png" height=256 width=256></img>
-<img src="https://user-images.githubusercontent.com/79708390/205160100-d177ca35-4de0-4dc2-843e-d0901a0d2450.png" height=256 width=256></img>
-<img src="https://user-images.githubusercontent.com/79708390/205160103-1d48ba0e-04ed-4e92-a14a-7fb456857d1e.png" height=256 width=256></img>
-<img src="https://user-images.githubusercontent.com/79708390/205160105-9d0c5273-762f-44e3-9ebe-e696e2aed76a.png" height=256 width=256></img>
+<img src="https://user-images.githubusercontent.com/79708390/205160111-ff195a19-cdf8-40fd-b52f-f97705256b79.png" height=512 width=512></img>
+<img src="https://user-images.githubusercontent.com/79708390/205160117-038ef66f-0f9f-43a0-8723-525838593ca7.png" height=512 width=512></img>    
+<img src="https://user-images.githubusercontent.com/79708390/205160086-890642ce-d8f6-464b-8c50-4146412b5778.png" height=512 width=512></img>
+<img src="https://user-images.githubusercontent.com/79708390/205160089-a6840e9c-855c-4448-ae94-6d79b04c1f04.png" height=512 width=512></img>    
+<img src="https://user-images.githubusercontent.com/79708390/205160095-82f551e2-3dab-4cdd-90e4-4a445d5ba3e6.png" height=512 width=512></img>
+<img src="https://user-images.githubusercontent.com/79708390/205160100-d177ca35-4de0-4dc2-843e-d0901a0d2450.png" height=512 width=512></img>    
+<img src="https://user-images.githubusercontent.com/79708390/205160103-1d48ba0e-04ed-4e92-a14a-7fb456857d1e.png" height=512 width=512></img>
+<img src="https://user-images.githubusercontent.com/79708390/205160105-9d0c5273-762f-44e3-9ebe-e696e2aed76a.png" height=512 width=512></img>    
 
 ### Model struggles.     
 
-<img src="https://user-images.githubusercontent.com/79708390/205160115-b85bdfd1-24a3-4e1b-9c86-33f3b84abb11.png" height=256 width=256></img>
-<img src="https://user-images.githubusercontent.com/79708390/205160092-77a1372a-f268-42c6-8db6-5bf2188486bc.png" height=256 width=256></img>     
+<img src="https://user-images.githubusercontent.com/79708390/205160115-b85bdfd1-24a3-4e1b-9c86-33f3b84abb11.png" height=512 width=512></img>
+<img src="https://user-images.githubusercontent.com/79708390/205160092-77a1372a-f268-42c6-8db6-5bf2188486bc.png" height=512 width=512></img>     
 
 
 ## Brief Notes on the Motivation for Convolutional Neural Networks
