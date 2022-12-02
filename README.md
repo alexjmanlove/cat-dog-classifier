@@ -35,7 +35,7 @@ The model is set to train with:
 * batch size of 40 for 10 epochs,
 * using the optimiser Adam with learning rate = 0.00001 optimising for binary cross entropy loss.
 
-The model loss gradually decreases until reaching a plateau. 
+The model training loss gradually decreases until reaching a plateau. 
     
 ## Model Evaluation
 
