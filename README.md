@@ -24,7 +24,7 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 * To ensure consistent model input, the RGB images are first transformed to dimensions 3×256×256. 
 * The feature extraction consists of 6 pairs of convolutional layers and MaxPooling layers all using ReLU() activation. 
 * Batch normalisation was applied after every convolution operation to assist the training of the model. 
-* The output of the final pooling layer is flattened and fed into the classifier, comprised of 6 fully connected layers using leaking ReLU() activation. 
+* The output of the final pooling layer is flattened and fed into the classifier, comprised of 6 fully connected layers using leaky ReLU(). 
 
     
 ## Model Training
