@@ -16,7 +16,7 @@ Images of 8,000 cats and dogs, taken from [this Kaggle dataset](https://www.kagg
 
 Convolutional Neural Networks are useful because they allow us to exploit the spatial correlation between pixels in the image to reduce the dimension of the input space. The first step is to extract the key features from the image. We achieve this by performing convolution operations using a kernel in the convolutional layers. Once these features are extracted, they are passed to a second network which uses several fully connected layers for classification.
 
-![cnn](https://user-images.githubusercontent.com/79708390/204142288-ce99f74e-c225-4b25-b186-99c4793fa4b6.png)    
+![nn (2)](https://user-images.githubusercontent.com/79708390/205317025-72946637-f42a-468a-b1dd-35455168527d.svg)    
 
 _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.html    
 (NB: diagram out of date as of 28/11/22)
