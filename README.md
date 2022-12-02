@@ -32,7 +32,7 @@ _CNN Architecture Diagram generated using:_ http://alexlenail.me/NN-SVG/AlexNet.
 ![training loss](https://user-images.githubusercontent.com/79708390/205051940-86e74e93-0ca2-45cc-b541-ba298ea0bb68.png)
 
 The model is set to train with: 
-* batch size of 40 for 10 epochs,
+* batch size of 20 for 10 epochs,
 * using the optimiser Adam with learning rate = 0.00001 optimising for binary cross entropy loss.
 
 The model training loss gradually decreases until reaching a plateau. 
